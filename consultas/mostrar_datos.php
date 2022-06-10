@@ -20,8 +20,6 @@
                             <td> <?php echo $mostrar['fecha_cita'] ?> </td>
                             <td> <?php echo $mostrar['nombre_cliente'] ?> </td>
                             <td> <?php echo $mostrar['apellido_cliente'] ?> </td>     
-                            <p> <?php echo $mostrar?> </p>
-
                         <?php
 
                         $dato = $mostrar['num_cita'];

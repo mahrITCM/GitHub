@@ -114,7 +114,7 @@
                               <label for="email">
                                  <p> Dirección de correo electrónico: </p>
                               </label>
-                              <input type="email" id="email" name="email" class="form-control" minlength="10"
+                              <input type="email" id="email" name="email" class="form-control" 
                                  required>
                            </div>
                         </div>
@@ -124,7 +124,7 @@
                                  <p> Fecha de tu reservación: </p>
                               </label>
                               <input type="datetime-local" id="start" name="fecha" value="" max="2025-01-01T21:00"
-                                 class="form-control" value="Selecciona fecha y hora para tu reservacion" minlength="10" maxlength="64"
+                                 class="form-control" value="Selecciona fecha y hora para tu reservacion" 
                                  required>
                            </div>
                         </div>
@@ -132,14 +132,9 @@
                         <div class="row">
                            <div class="col-md-6 form-group">
                               <input type="submit" name="registro" value="Reservar tu mesa" class="btn btn-primary">
-                           </div>
-                        </div>
-                        <div class="window-notice" id="window-notice">
-                           <div class="content">
-                              <div class="content-text">
-                                 <?php
-                                    ?>
-                              </div>
+                              <?php
+                  		         include("registrar.php");
+               		         ?>
                            </div>
                         </div>
                      </form>

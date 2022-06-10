@@ -43,8 +43,6 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th> Id Cliente </th>
-                                <th> Atendido por </th>
                                 <th> Nombre(s) </th>
                                 <th> Apellido(s) </th>
                                 <th> E-mail </th>
@@ -52,70 +50,14 @@
                                 <th> No. de mesa </th>
                                 <th> Costo por reservación </th>
                                 <th> Fecha y hora de reserva </th>
-                                <th>  </th>
-                                <th>  </th>
                             </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    
-                                    <td> 1 </td>  
-                                    <td> Adrian Juarez  </td>
-                                    <td> Luis Gerardo </td>
-                                    <td> Castillo Sanchez </td>
-                                    <td> cuentafalsauno001@protonmail.com </td>
-                                    <td> 5 </td>
-                                    <td> 5 </td>
-                                    <td> $49.99 MXN</td>
-                                    <td> 2022-06-01 | 22:00:00 </td>
-                                    <td><a href="/eliminar_admin/{{r.0}}" class="btn btn-primary" onclick="window.open('#','_blank'); window.open(this.href,'_self');"> Eliminar Reservación </td>
-                                    <td><a class="btn btn-primary" onclick=" alerts()"> Atender Reservación </td> 
-                                </tr>
                                 
-                                <tr>
-                                    
-                                    <td> 2 </td>  
-                                    <td> Mirna Rangel  </td>
-                                    <td> Miriam Areli </td>
-                                    <td> Hernandez Reyes </td>
-                                    <td> L19071590@cdmadero.tecnm.mx </td>
-                                    <td> 4 </td>
-                                    <td> 4 </td>
-                                    <td> $49.99 MXN</td>
-                                    <td> 2022-06-01 | 13:00:00 </td>
-                                    <td><a href="/eliminar_admin/{{r.0}}" class="btn btn-primary" onclick="window.open('#','_blank'); window.open(this.href,'_self');"> Eliminar Reservación </td>
-                                    <td><a class="btn btn-primary" onclick=" alerts()"> Atender Reservación </td> 
-                                </tr>
-                                
-                                <tr>
-                                    
-                                    <td> 3 </td>  
-                                    <td> Marco Juarez  </td>
-                                    <td> Carlos Alberto  </td>
-                                    <td> Rios Martinez </td>
-                                    <td> rmartinez09@gmail.com </td>
-                                    <td> 12 </td>
-                                    <td> 6 </td>
-                                    <td> $49.99 MXN</td>
-                                    <td> 2022-06-01 | 17:00:00 </td>
-                                    <td><a href="/eliminar_admin/{{r.0}}" class="btn btn-primary" onclick="window.open('#','_blank'); window.open(this.href,'_self');"> Eliminar Reservación </td>
-                                    <td><a class="btn btn-primary" onclick=" alerts()"> Atender Reservación </td> 
-                                </tr>
-                                
-                                <tr>
-                                    
-                                    <td> 4 </td>  
-                                    <td> Mario Enriquez  </td>
-                                    <td> Mario Abraham  </td>
-                                    <td> Betancourt de la Cruz</td>
-                                    <td> btCourt12@gmail.com </td>
-                                    <td> 8 </td>
-                                    <td> 2 </td>
-                                    <td> $49.99 MXN</td>
-                                    <td> 2022-06-01 | 17:00:00 </td>
-                                    <td><a href="/eliminar_admin/{{r.0}}" class="btn btn-primary" onclick="window.open('#','_blank'); window.open(this.href,'_self');"> Eliminar Reservación </td>
-                                    <td><a class="btn btn-primary" onclick=" alerts()"> Atender Reservación </td> 
-                                </tr>
+                                    <?php 
+                                        include("mostrar.php");
+                                    ?>
+                            
                             </tbody>
                         </table>
                     </div>

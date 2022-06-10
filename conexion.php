@@ -1,3 +1,3 @@
 <?php
-    $db = mysqli_connect("localhost", "root", "", "basedatos");
+    $db = mysqli_connect("localhost", "root", "", "restaurante");
 ?>

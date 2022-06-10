@@ -50,7 +50,7 @@
                            <label>Contraseña </label>
                         </div>
                         <div class="pt-1 mb-4">
-                           <input type="submit" class="btn btn-primary" name="iniciar" > Iniciar Sesion </input>
+                           <input type="submit" class="btn btn-primary" name="iniciar" value="Ingresar">
 					            <?php
                   		      include("login.php");
                		      ?>
