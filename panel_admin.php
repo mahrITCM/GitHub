@@ -124,64 +124,6 @@
             </div>
         </div>
     </section>
-    
-    <a name="atender">
-      <section class="site-hero2 overlay">
-         <br> <br> 
-         <div class="">
-            <div class="">
-               <div class="col-md-8 pr-5">
-                  <h1> Atender Reservación </h1>
-                  <br>
-                  <br>
-               </div>
-               <div class="col-md-12">
-                  <form method="post">
-                     <div class="row">
-                        <div class="col-md-4 form-group">
-                           <label for="name">
-                              <p> Nombre(s) del meser@: </p>
-                           </label>
-                           <input type="text" id="name" name="nombre" class="form-control " 
-                              required>
-                        </div>
-                        <div class="col-md-4 form-group">
-                           <label for="app">
-                              <p> Apellido(s) del meser@: </p>
-                           </label>
-                           <input type="text" id="apellidos" name="apellido" class="form-control" 
-                              required>
-                        </div>
-                     </div>
-                     
-                     <div class="row">
-                        <div class="col-md-4 form-group">
-                           <label for="number">
-                              <p> Mesa: </p>
-                           </label>
-                           <input type="number" id="no" name="no" class="form-control" minlength="10"  required>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-6 form-group">
-                           <input type="submit" name="registro" value="Atender Mesa" class="btn btn-primary">
-                        </div>
-                     </div>
-                     <div class="window-notice" id="window-notice">
-                        <div class="content">
-                           <div class="content-text">
-                              <?php
-                                 ?>
-                           </div>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </div>
-         </div>
-         <br> <br> 
-      </section>
-   </a>
     </body>
     
     <script src="js/jquery-3.2.1.min.js"></script>
